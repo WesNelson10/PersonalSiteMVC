@@ -1,31 +1,571 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<!-- ======= Header ======= -->
+<header id="header" class="header-tops">
+    <div class="container">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+        <h1><a href="index.html">Wes Nelson</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--<a href="index.html" class="mr-auto"><img src="assets/img/codeLogo.png" alt="Wes Logo" class="img-fluid"></a>-->
+        <h2>I'm a junior <span>web developer</span> from Mission, Kansas</h2>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#services">Links</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav><!-- .nav-menu -->
+
+        <div class="social-links">
+            <a href="https://github.com/WesNelson10" class="twitter"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wesnelsondev/" class="linkedin" target="_blank"><i class="icofont-linkedin"></i></a>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</header><!-- End Header -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+        <div class="section-title">
+            <h2>About</h2>
+            <p>Learn more about me</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="assets/img/wesHeadshotCropped.jpg" class="img-fluid" alt="Photo of Wes">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>Web Developer</h3>
+                <p class="font-italic">
+                    Coder. Gamer. Hooper. Friend.
+                </p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Mission, Kansas</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> November 12, 1999</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> wesnelson10@outlook.com</li>
+                            <li>
+                                <i class="icofont-rounded-right"></i> <strong>Resume:</strong>
+                                <a href="assets/Wes Nelson Resume.docx"><strong>Download!</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    Hey there! I'm Wes Nelson out of Mission, Kansas and I am loving my time as a full stack web development student at centriq training. Before I started creating in the tech world, I was creating with music at Northwest Missouri State University. I excel in team based environments - I loved playing and even writing music in groups of varied size during my time there. But I'm willing to take on any task that needs to be done and I'm not afraid to put my head down and work alone. My friends frequently come to me when they need a workout buddy - not because I can deadlift 500 pounds, but because I know the proper technique and I'm a good teacher. Not to mention, becoming more knowledgeable by the day. Check out the portfolio section for links to my projects. I'd love to connect on <strong><a href="https://www.linkedin.com/in/wesnelsondev/">LinkedIn</a></strong>.
+                </p>
+            </div>
+        </div>
+
+    </div><!-- End About Me -->
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+            <div class="col-lg-6">
+
+                <div class="progress">
+                    <span class="skill">HTML <i class="val">100%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">CSS <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">JavaScript <i class="val">75%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="progress">
+                    <span class="skill">C# <i class="val">80%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">SQL <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">Time Management <i class="val">95%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div><!-- End Skills -->
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+        <div class="section-title">
+            <h2>Interests</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <div class="icon-box">
+                    <i class="fas fa-users" style="color: purple"></i>
+                    <h3>People</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="fas fa-basketball-ball" style="color: orange"></i>
+                    <h3>Sports</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="fas fa-plane" style="color: green;"></i>
+                    <h3>Travel</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <i class="fas fa-paw" style="color: blue"></i>
+                    <h3>Animals</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="fas fa-music" style="color: darkgoldenrod"></i>
+                    <h3>Low Brass</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="fas fa-jedi" style="color: darkturquoise"></i>
+                    <h3>Movies</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="fas fa-book" style="color: crimson"></i>
+                    <h3>Books</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="fas fa-chess-knight" style="color: burlywood"></i>
+                    <h3>Strategy</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- End Interests -->
+
+</section><!-- End About Section -->
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Resume</h2>
+            <p>Check My Resume</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                <h3 class="resume-title">Education</h3>
+                <div class="resume-item">
+                    <h4>Northwest Missouri State University</h4>
+                    <h5>2018 - 2020</h5>
+                    <p><em>Music Education (Tuba!)</em></p>
+                    <p>
+                        <ul>
+                            <li>Practiced for and made the top ensemble (Wind Symphony) in every semester attended.</li>
+                            <li>Collaborated with other musicians in small groups to achieve a common goal (group assignments, quintets, general studies, etc.)</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <h4>Centriq Training Program</h4>
+                    <h5>2021-Present</h5>
+                    <p><em>Full Stack Web Development Track</em></p>
+                    <p>
+                        <ul>
+                            <li>HTML, CSS, JS/jQuery</li>
+                            <li>SQL, XML, JSON and MVC</li>
+                            <li>C#, ReactJS</li>
+                            <li>Pair Programming</li>
+                            <li>Teamwork, Meeting Deadlines, Perseverance and learning to love problem solving through coding.</li>
+                        </ul>
+                        <a href="assets/Wes Nelson Resume.docx"><em><strong>Full Resume Download</strong></em></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="resume-title">Professional Experience</h3>
+                <div class="resume-item">
+                    <h4>Bakery Clerk</h4>
+                    <h5>Summer 2018</h5>
+                    <p><em>Hy-Vee, Kansas City, MO</em></p>
+                    <p>
+                        <ul>
+                            <li>Wrapped, labeled, and stocked various baked goods.</li>
+                            <li>Greeted and assisted customers with kindness.</li>
+                            <li>Decorated birthday and event cakes as needed.</li>
+                            <li>Collaborated with coworkers to push a certain number of goods to the public.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <h4>Summer PE Staff Member</h4>
+                    <h5>Summer 2019</h5>
+                    <p><em>Park Hill School District, Kansas City, MO</em></p>
+                    <p>
+                        <ul>
+                            <li>Helped oversee the safety of 40+ students per class.</li>
+                            <li>Mediated conflicts between students in a calm manner.</li>
+                            <li>Brainstormed fun events that met the goals of the class.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <h4>Night Janitor</h4>
+                    <h5>2021-Present</h5>
+                    <p><em>Kimco Services, Merriam, Kansas</em></p>
+                    <p>
+                        <ul>
+                            <li>Met goals with little to no supervision.</li>
+                            <li>Met goals in a timely manner.</li>
+                            <li>Organized and took accurate inventory of supply closet.</li>
+                            <li>Ensured security of building using alarm system.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section><!-- End Resume Section -->
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Links</h2>
+            <p>My Classmates</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/brandanMitchellNew.jpg" />
+                    </div>
+                    <h4><a href="http://mitchellandtech.com/#">Brandan Mitchell</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/userPic.png" />
+
+                    </div>
+                    <h4><a href="http://croftcoding.com/" target="_blank">Carter Croft</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/edward.jpg" />
+                    </div>
+                    <h4><a href="http://edwardbarrier.com/" target="_blank">Edward Barrier</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/clydeImageNew.jpg" />
+                    </div>
+                    <h4><a href="http://coderclyde.com/" target="_blank">Clyde Parker</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/userPic.png" />
+                    </div>
+                    <h4><a href="#" target="_blank">Enrique Garcia</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div>
+                        <img class="classmate" src="~/Content/img/userPic.png" />
+                    </div>
+                    <h4><a href="#" target="_blank">Vagust Fox</a></h4>
+                    <p>Centriq Classmate</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
+</section><!-- End Services Section -->
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>Behold... My Stuff</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">WIP</li>
+                    <li data-filter=".filter-card">C#</li>
+                    <li data-filter=".filter-web">Front End</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/wip.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Storefront App</h4>
+                        <p>Mock E-Commerce Site</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/mini.jpg" class="img-fluid" alt="Mini People">
+                    <div class="portfolio-info">
+                        <h4>Mini Projects</h4>
+                        <p>
+                            Currently including:
+                            <br />JS Digital Clock
+                        </p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/wip.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Scheduling Admin Tool</h4>
+                        <p>Full-Stack MVC app.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/clockimage.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>C# Digital Clock</h4>
+                        <p>Using a C# Form.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/bball.jpg" class="img-fluid" alt="A basketball">
+                    <div class="portfolio-info">
+                        <h4>Basketball Simulator</h4>
+                        <p>WIP, but functional</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/wip.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Final Project</h4>
+                        <p>This one will be great.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/randNum.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Guess the Number!</h4>
+                        <p>Between 0 and 100.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/pirateShip.jpg" class="img-fluid" alt="Photo of a Pirate Ship">
+                    <div class="portfolio-info">
+                        <h4>Text-Based Console App</h4>
+                        <p>A Sea Adventure!</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/midwestFitness.jpg" class="img-fluid" alt="A weight room">
+                    <div class="portfolio-info">
+                        <h4>Midwest Fitness</h4>
+                        <p>Pure front-end site for a small business.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/WesNelson10" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Portfolio Section -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Me</p>
+        </div>
+
+        <div class="row mt-2">
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-share-alt"></i>
+                    <h3>Socials</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_w.nel_/" class="instagram"><i class="icofont-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/wesnelsondev/" class="linkedin"><i class="icofont-linkedin"></i></a>
+                        <a href="https://github.com/WesNelson10" class="twitter"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p>wesnelson10@outlook.com</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+            <span style="color: #ff6c6c"><strong>Contact Form currently unavailable.</strong></span>
+            <div class="form-row">
+                <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+    </div>
+</section><!-- End Contact Section -->
+
+<div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 </div>
