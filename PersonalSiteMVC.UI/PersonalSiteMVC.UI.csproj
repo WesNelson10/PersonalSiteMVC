@@ -128,22 +128,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\style.css" />
-    <Content Include="Content\img\apple-touch-icon.png" />
     <Content Include="Content\img\bball.jpg" />
-    <Content Include="Content\img\bg.jpg" />
+    <Content Include="Content\img\bgTrees.jpg" />
     <Content Include="Content\img\brandanMitchellNew.jpg" />
     <Content Include="Content\img\clockimage.png" />
     <Content Include="Content\img\clydeImageNew.jpg" />
     <Content Include="Content\img\codeLogo.png" />
     <Content Include="Content\img\edward.jpg" />
-    <Content Include="Content\img\favicon.png" />
     <Content Include="Content\img\logoTransparent.png" />
     <Content Include="Content\img\me.jpg" />
     <Content Include="Content\img\midwestFitness.jpg" />
     <Content Include="Content\img\mini.jpg" />
     <Content Include="Content\img\pirateShip.jpg" />
     <Content Include="Content\img\randNum.jpg" />
-    <Content Include="Content\img\trees.jpg" />
     <Content Include="Content\img\userPic.png" />
     <Content Include="Content\img\wesHeadshotCropped.jpg" />
     <Content Include="Content\img\wip.png" />
