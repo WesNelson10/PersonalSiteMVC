@@ -12,7 +12,5 @@ namespace PersonalSiteMVC.UI.Controllers
         {
             return View();
         }
-
-        
     }
 }
